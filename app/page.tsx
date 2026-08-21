@@ -13,7 +13,7 @@ export default function Home() {
     <main>
       <nav className="topbar">
         <a className="brand" href="#top" aria-label="На главную">AV<span>AI</span></a>
-        <div className="navlinks"><a href="#work">Кейсы</a><a href="#about">Подход</a></div>
+        <div className="navlinks"><a href="#work">Кейсы</a><a href="#about">Подход</a><a href="#experience">Опыт</a></div>
         <a className="status" href="#contact"><i />Открыт к стажировке</a>
       </nav>
 
@@ -75,6 +75,24 @@ export default function Home() {
       <section className="about" id="about">
         <span>Мой подход</span><h2>Не просто генерировать.<br />Находить идею, собирать систему и доводить до публикации.</h2>
         <div className="skillMarquee"><span>ChatGPT</span><span>Prompt design</span><span>AI image</span><span>Lip-sync</span><span>Figma</span><span>Video editing</span><span>Prototyping</span></div>
+      </section>
+
+      <section className="experience" id="experience">
+        <header className="experienceHead"><span>Профессиональный опыт</span><h2>Опыт и AI-практика</h2></header>
+        <div className="experienceList">
+          <article className="experienceItem">
+            <div className="experienceMeta"><b>01</b><span>2 года</span></div>
+            <div className="experienceBody"><h3>Министерство культуры РФ</h3><h4>Редактор пресс-службы / специалист отдела господдержки игрового кино</h4><p>Анализировал сценарии, синопсисы и продюсерские материалы; готовил новости, пресс-релизы, тезисы и материалы для внешних коммуникаций.</p><p className="aiNote"><span>AI</span> Использовал нейросети для первичной структуризации документов, поиска смысловых линий и подготовки редакционных вариантов с обязательной ручной проверкой.</p></div>
+          </article>
+          <article className="experienceItem">
+            <div className="experienceMeta"><b>02</b><span>2 года</span></div>
+            <div className="experienceBody"><h3>«Франко»</h3><h4>Менеджер маркетинговых проектов</h4><p>Собирал брифы, координировал подрядчиков, готовил рекламные концепции, презентации, контентные материалы и контролировал сроки реализации.</p><p className="aiNote"><span>AI</span> Применял нейросети для генерации идей и текстовых вариантов, создания визуальных референсов и ускорения подготовки брифов и ТЗ.</p></div>
+          </article>
+          <article className="experienceItem">
+            <div className="experienceMeta"><b>03</b><span>2 года</span></div>
+            <div className="experienceBody"><h3>УК АТОН</h3><h4>Координатор маркетинга и продуктовых коммуникаций</h4><p>Работал с инвестиционным продуктом для анализа финансовых инструментов и облигаций; переводил сложные рыночные данные в понятные продуктовые материалы.</p><p className="aiNote"><span>AI</span> Создавал AI-ассистентов и финансовых агентов для анализа облигаций, новостей, портфеля и рисков; разработал калькулятор спредов и бота по валютам и доходностям.</p></div>
+          </article>
+        </div>
       </section>
 
       <footer id="contact"><div><span>Готов к команде коммуникаций</span><h2>Давайте<br /><em>сделаем.</em></h2></div><p>Открыт к стажировке 30–40 часов в неделю, гибридному формату и быстрой работе с обратной связью.<br /><br /><a className="repoLink" href="https://github.com/box11425-stack/ai-creator-portfolio" target="_blank" rel="noreferrer">GitHub проекта ↗</a><br /><br />Контакты — в резюме.</p></footer>
