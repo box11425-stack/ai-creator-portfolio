@@ -77,7 +77,7 @@ export default function Home() {
         <div className="skillMarquee"><span>ChatGPT</span><span>Prompt design</span><span>AI image</span><span>Lip-sync</span><span>Figma</span><span>Video editing</span><span>Prototyping</span></div>
       </section>
 
-      <footer id="contact"><div><span>Готов к команде коммуникаций</span><h2>Давайте<br /><em>сделаем.</em></h2></div><p>Открыт к стажировке 30–40 часов в неделю, гибридному формату и быстрой работе с обратной связью.<br /><br />Контакты — в резюме.</p></footer>
+      <footer id="contact"><div><span>Готов к команде коммуникаций</span><h2>Давайте<br /><em>сделаем.</em></h2></div><p>Открыт к стажировке 30–40 часов в неделю, гибридному формату и быстрой работе с обратной связью.<br /><br /><a className="repoLink" href="https://github.com/box11425-stack/ai-creator-portfolio" target="_blank" rel="noreferrer">GitHub проекта ↗</a><br /><br />Контакты — в резюме.</p></footer>
     </main>
   );
 }

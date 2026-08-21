@@ -2,6 +2,8 @@
 
 Портфолио для позиции AI-креатора в отделе коммуникаций. Проект объединяет нейросетевые визуалы, видеомонтаж, форматные адаптации и работающие интерактивные прототипы.
 
+**Портфолио:** [alexey-vasutin-ai-creator-2026.box11425.chatgpt.site](https://alexey-vasutin-ai-creator-2026.box11425.chatgpt.site)
+
 ## Кейсы
 
 ### 1. Villa Julia — AI Content System

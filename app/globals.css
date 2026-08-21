@@ -101,6 +101,7 @@ button { font: inherit; }
 .skillMarquee { margin-top: 75px; padding: 20px 0; border-top: 1px solid #999; border-bottom: 1px solid #999; display: flex; flex-wrap: wrap; gap: 12px; }.skillMarquee span { padding: 9px 13px; background: #ffd60a; font: 12px monospace; }
 footer { padding: 100px 3.2vw 60px; background: #ffd60a; display: grid; grid-template-columns: 2fr 1fr; gap: 50px; align-items: end; }
 footer span { font: 11px monospace; text-transform: uppercase; } footer h2 { margin: 25px 0 0; font-size: clamp(70px, 12vw, 180px); line-height: .78; letter-spacing: -.08em; } footer h2 em { font-family: Georgia,serif; font-weight: 400; color: #2359d8; } footer p { max-width: 460px; font-size: 18px; line-height: 1.4; }
+.repoLink { display: inline-block; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-weight: 700; }
 @media (max-width: 760px) {
   .topbar { grid-template-columns: 1fr auto; }.navlinks { display: none; }
   .hero { min-height: 760px; }.hero h1 { font-size: 18vw; }.heroFooter { align-items: center; gap: 20px; }
