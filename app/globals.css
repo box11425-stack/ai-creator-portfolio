@@ -99,19 +99,6 @@ button { font: inherit; }
 .about > span { text-transform: uppercase; font: 12px monospace; }
 .about h2 { margin: 34px 0 0; max-width: 1250px; font-size: clamp(42px, 6.6vw, 104px); line-height: .97; letter-spacing: -.055em; font-weight: 500; }
 .skillMarquee { margin-top: 75px; padding: 20px 0; border-top: 1px solid #999; border-bottom: 1px solid #999; display: flex; flex-wrap: wrap; gap: 12px; }.skillMarquee span { padding: 9px 13px; background: #ffd60a; font: 12px monospace; }
-.experience { padding: 110px 3.2vw 130px; background: #e9e5db; scroll-margin-top: 74px; }
-.experienceHead { display: grid; grid-template-columns: 1fr 2fr; gap: 35px; padding-bottom: 55px; border-bottom: 1px solid #999; }
-.experienceHead span { padding-top: 12px; font: 12px monospace; text-transform: uppercase; letter-spacing: .08em; }
-.experienceHead h2 { margin: 0; font-size: clamp(50px, 7vw, 108px); line-height: .9; letter-spacing: -.065em; font-weight: 600; }
-.experienceItem { display: grid; grid-template-columns: 1fr 2fr; gap: 35px; padding: 44px 0 52px; border-bottom: 1px solid #999; }
-.experienceMeta { display: flex; align-items: flex-start; gap: 22px; font: 12px monospace; text-transform: uppercase; }
-.experienceMeta b { display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%; background: #111; color: white; }
-.experienceMeta span { padding-top: 14px; }
-.experienceBody h3 { margin: 0; font-size: clamp(40px, 5vw, 74px); line-height: .92; letter-spacing: -.055em; }
-.experienceBody h4 { margin: 13px 0 30px; max-width: 780px; font-size: 18px; line-height: 1.3; font-weight: 500; }
-.experienceBody > p { max-width: 800px; font-size: 17px; line-height: 1.5; }
-.aiNote { margin-top: 22px; padding: 18px 20px; border-left: 5px solid #2359d8; background: rgba(255,255,255,.52); }
-.aiNote span { display: inline-block; margin-right: 10px; padding: 4px 7px; background: #ffd60a; font: 11px monospace; font-weight: 700; }
 footer { padding: 100px 3.2vw 60px; background: #ffd60a; display: grid; grid-template-columns: 2fr 1fr; gap: 50px; align-items: end; }
 footer span { font: 11px monospace; text-transform: uppercase; } footer h2 { margin: 25px 0 0; font-size: clamp(70px, 12vw, 180px); line-height: .78; letter-spacing: -.08em; } footer h2 em { font-family: Georgia,serif; font-weight: 400; color: #2359d8; } footer p { max-width: 460px; font-size: 18px; line-height: 1.4; }
 .repoLink { display: inline-block; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-weight: 700; }
@@ -128,6 +115,5 @@ footer span { font: 11px monospace; text-transform: uppercase; } footer h2 { mar
   .browserHero,.browserHero > img { min-height: 640px; height: 640px; }.browserCopy { left: 24px; right: 24px; top: auto; bottom: 25px; transform: none; }.browserHero:after { background: linear-gradient(0deg, rgba(3,7,13,.95), transparent 82%); }
   .formatShowcase { grid-template-columns: 1fr 1fr; }.format.landscape { grid-column: 1 / -1; }.storyboard { grid-template-columns: 1fr 1fr; }.storyboard article:nth-child(2) { border-right: 0; }.storyboard article:nth-child(-n+2) { border-bottom: 1px solid #999; }.promptCard { grid-template-columns: 1fr; gap: 22px; }
   .copilot { grid-template-columns: 1fr; }.copilotForm { border-right: 0; border-bottom: 1px solid #111; }.copilotResult { min-height: 590px; }.resultMeta { gap: 18px; }.copilotResult h3 { margin: 70px 0 30px; }
-  .experience { padding: 80px 20px; }.experienceHead,.experienceItem { grid-template-columns: 1fr; }.experienceHead { gap: 22px; }.experienceHead h2 { font-size: 15vw; }.experienceItem { gap: 28px; }.experienceBody h3 { font-size: 13vw; }
   footer { grid-template-columns: 1fr; } footer p { margin-top: 40px; }
 }
